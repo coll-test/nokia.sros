@@ -1,0 +1,21 @@
+plugins/module_utils/network/sros/sros.py future-import-boilerplate
+plugins/module_utils/network/sros/sros.py metaclass-boilerplate
+plugins/modules/sros_command.py validate-modules:doc-default-does-not-match-spec
+plugins/modules/sros_command.py validate-modules:doc-missing-type
+plugins/modules/sros_command.py validate-modules:doc-required-mismatch
+plugins/modules/sros_command.py validate-modules:parameter-type-not-in-doc
+plugins/modules/sros_command.py yamllint:unparsable-with-libyaml
+plugins/modules/sros_config.py validate-modules:doc-default-does-not-match-spec
+plugins/modules/sros_config.py validate-modules:doc-missing-type
+plugins/modules/sros_config.py validate-modules:doc-required-mismatch
+plugins/modules/sros_config.py validate-modules:nonexistent-parameter-documented
+plugins/modules/sros_config.py validate-modules:parameter-type-not-in-doc
+plugins/modules/sros_config.py yamllint:unparsable-with-libyaml
+plugins/modules/sros_rollback.py validate-modules:doc-default-does-not-match-spec
+plugins/modules/sros_rollback.py validate-modules:doc-missing-type
+plugins/modules/sros_rollback.py validate-modules:doc-required-mismatch
+plugins/modules/sros_rollback.py validate-modules:parameter-type-not-in-doc
+plugins/modules/sros_rollback.py yamllint:unparsable-with-libyaml
+plugins/action/sros.py action-plugin-docs # base class for deprecated network platform modules using `connection: local`
+plugins/doc_fragments/sros.py future-import-boilerplate
+plugins/doc_fragments/sros.py metaclass-boilerplate
